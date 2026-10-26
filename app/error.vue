@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { fr } from '@nuxt/ui/locale'
 import type { NuxtError } from '#app'
 
 defineProps<{
@@ -12,13 +13,13 @@ useSeoMeta({
 
 useHead({
   htmlAttrs: {
-    lang: 'en'
+    lang: 'fr'
   }
 })
 </script>
 
 <template>
-  <UApp>
+  <UApp :locale="fr">
     <UError :error="error" />
   </UApp>
 </template>
