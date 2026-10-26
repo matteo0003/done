@@ -22,6 +22,9 @@ export default defineNuxtConfig({
   routeRules: {
     '/api/**': {
       cors: true
+    },
+    '/dashboard/**': {
+      appLayout: 'dashboard'
     }
   },
 
