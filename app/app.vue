@@ -34,7 +34,7 @@ useSeoMeta({
 
 <template>
   <UApp :locale="fr">
-    <NuxtLoadingIndicator />
+    <NuxtLoadingIndicator color="#2b7fff" />
 
     <NuxtLayout>
       <NuxtPage />
